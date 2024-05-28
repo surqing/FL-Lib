@@ -1,4 +1,4 @@
-name: fl
+name: sur-fl
 channels:
   - pytorch
   - nvidia
@@ -13,6 +13,7 @@ dependencies:
   - seaborn
   - matplotlib
   - click
+  - cudatoolkit=11.6
   - pip:
     - torch==2.0.1
     - torchaudio
